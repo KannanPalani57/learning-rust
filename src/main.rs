@@ -1,7 +1,8 @@
-
-use learning_rust::learing_traits::{learning_traits};
+use learning_rust::learning_traits::{learning_traits};
+use learning_rust::learning_lifetime::{lifetime};
 
 fn main() {
-    println!("Hello, world!");
-    learning_traits();
+    // learning_traits();
+
+    lifetime();
 }
