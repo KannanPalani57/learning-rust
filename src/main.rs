@@ -4,6 +4,8 @@ use learning_rust::learning_closures::{closure};
 use learning_rust::iterators::{learning_iterators};
 use learning_rust::deref_smart_pointers::{deref_smart_pointers};
 use learning_rust::thread::{learning_threads};
+use learning_rust::option::{learning_option};
+
 
 fn main() {
     // learning_traits();
@@ -14,7 +16,9 @@ fn main() {
 
     // learning_iterators()
 
-    deref_smart_pointers();
-    learning_threads();
+    // deref_smart_pointers();
+    // learning_threads();
+
+    learning_option();
 
 }

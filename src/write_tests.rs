@@ -11,7 +11,7 @@ struct Rectangle {
 
 impl Rectangle {
     fn can_hold(&self, other: &Rectangle) -> bool {
-        
+        false
     }
 }
 

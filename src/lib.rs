@@ -6,3 +6,4 @@ pub mod deref_smart_pointers;
 pub mod write_tests;
 pub mod refcell;
 pub mod thread;
+pub mod option;
