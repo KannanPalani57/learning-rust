@@ -18,8 +18,6 @@ impl User {
 
 
 pub fn learning_option() {
-    println!("Learning Option Enum");   
-
     let john = User {
         first_name: "John".to_string(), 
         last_name: Some("Doe".to_string())
