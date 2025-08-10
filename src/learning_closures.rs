@@ -109,3 +109,38 @@ pub fn closure() {
 }
 
 // learn more about FnOnce, FnMut, Fn Traits.
+fn move_env_fnonce() {
+
+    let greeting = String::from("Welcome");
+
+
+    // moves ownership of the variable by using FnOnce trait
+    let greet_user = move |name| {
+        println!("{} {}", greeting, name);
+    };
+    
+    greet_user("Kannan");
+    
+}
+
+fn takes_mutable_env() {
+    let mut count = 0;
+
+    let mut increment = || {
+        count += 1;
+        println!("Count: {}", count);
+    };
+
+    increment();
+    increment();
+}
+
+fn takes_reference_env(){
+    let greeting = String::from("Hello");
+
+    let greet_user = |name| {
+        println!("{} {}", greeting, name);
+    };
+
+    greet_user("Alice");
+}
