@@ -1,3 +1,4 @@
+use learning_rust::concurrency::mutex::update_count;
 use learning_rust::concurrency::threads_basics::threads_basics;
 use learning_rust::deref_smart_pointers::deref_smart_pointers;
 use learning_rust::iterators::learning_iterators;
@@ -6,7 +7,6 @@ use learning_rust::learning_lifetime::lifetime;
 use learning_rust::learning_traits::learning_traits;
 use learning_rust::option::learning_option;
 use learning_rust::thread::learning_threads;
-
 fn main() {
     // learning_traits();
 
@@ -21,5 +21,7 @@ fn main() {
 
     // learning_option();
 
-    threads_basics();
+    // threads_basics();
+
+    update_count()
 }
