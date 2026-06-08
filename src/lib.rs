@@ -1,9 +1,10 @@
-pub mod learning_traits;
-pub mod learning_lifetime;
-pub mod learning_closures;
-pub mod iterators;
+pub mod concurrency;
 pub mod deref_smart_pointers;
-pub mod write_tests;
+pub mod iterators;
+pub mod learning_closures;
+pub mod learning_lifetime;
+pub mod learning_traits;
+pub mod option;
 pub mod refcell;
 pub mod thread;
-pub mod option;
+pub mod write_tests;
